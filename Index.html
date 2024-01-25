@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Mujawar Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/fd5c0ee694.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Aman.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Aman Mujawar </span><br> from INDIA</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p style="text-align: justify;">Welcome to my digital space! I'm <span style="font-weight: bold;">Aman</span>, a passionate web developer with expertise in a range of technologies, including HTML, CSS, JavaScript, React.js, Next.js, and ServiceNow. My journey in the world of web development began with a curiosity for crafting immersive and user-friendly digital experiences. With a keen eye for design and a commitment to staying at the forefront of technology, I thrive on bringing ideas to life through clean and efficient code. Whether it's building responsive websites, dynamic web applications, or integrating solutions with ServiceNow, I enjoy the creative process of transforming concepts into seamless, interactive realities. Join me on this exciting journey as we explore the possibilities of the digital realm together. Let's build something extraordinary!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>ReactJS and NextJS</span><br>Front-end Development</li>
+                            <li><span>ServiceNow</span><br>Web Development</li>
+                            <li><span>UI</span><br>Designing Web interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sept 2023 - Current</span><br>React Js Developer at StormSofts Technology</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>MCA at Shivaji University Kolhapur</li>
+                            <li><span>2021</span><br>B.Sc CS at Shri Annasaheb Dange College, Hatkanangale</li>
+                            <li><span>2018</span><br>HSC at Shri Annasaheb Dange College, Hatkanangale</li>
+                            <li><span>2016</span><br>SSC at Shri Ramrao Ingawale Highschool, Hatkanangale</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services   -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Welcome to my personal website, here I blend creativity and technology to craft exceptional web solutions. With expertise in HTML, CSS, JavaScript, React.js, and Next.js, I offer you a range of services to elevate your online presence and deliver seamless user experiences.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI Design</h2>
+                    <p>Elevate your brand with captivating user interfaces and seamless user experiences. Our design team ensures that every element contributes to an intuitive and visually appealing interface.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-js"></i>
+                    <h2>ServiceNow</h2>
+                    <p>We harness the transformative power of ServiceNow to elevate your business operations and IT service management. Our comprehensive suite of ServiceNow services encompasses a range of solutions designed to streamline processes, boost efficiency, and enhance collaboration across your organization. <span style="">(Website is still in Development)</span></p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Porfolio -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Alphabet News Web App</h3>
+                        <p>This is my first web app. Here I made a web app which can show you a local news of Maharashtra</p>
+                        <a href="https://alphabetnews.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>News-Drill</h3>
+                        <p>This is also a news app which I have made for my practice. It shows international news with some catagories. <br> (Note : This website is down right now because of some api issues.)</p>
+                        <a href="https://frolicking-macaron-324084.netlify.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Live-soccer</h3>
+                        <p>This web app is about the football score. It shows live score of any football match and the information about different football leagues and tournaments all over the world.</p>
+                        <a href="https://livesoccer.netlify.app" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <a href="" class="btn">See more</a>
+    </div>
+
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> amanmujawar9977@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> +91 8855844326</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/amanmujawar" target="_blank"><i class="fa-brands fa-github"></i></i></a>
+                        <a href="https://www.instagram.com/_amanmujawar_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/aman-mujawar-244532213" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://wa.me/+918855844326?text=Hello" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="images/Resume_Aman_Mujawar.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169; Aman Mansoor Mujawar <i class="fa-solid fa-heart"></i> | 2024</p>
+        </div>
+    </div>
+   
+</body>
+<script src="Script.js"></script>
+
+</html>
